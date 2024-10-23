@@ -59,6 +59,7 @@
             txtResultado.ReadOnly = true;
             txtResultado.Size = new Size(147, 23);
             txtResultado.TabIndex = 0;
+            txtResultado.TextChanged += txtResultado_TextChanged;
             // 
             // btn1
             // 
